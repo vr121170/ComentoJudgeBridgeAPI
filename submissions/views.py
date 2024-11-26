@@ -10,7 +10,7 @@ from rest_framework import status
 
 class Judge0SubmissionView(APIView):
     # Judge0 API URL
-    JUDGE0_URL = "https://579f-112-168-108-61.ngrok-free.app/submissions/"
+    JUDGE0_URL = "https://28c9-112-168-108-61.ngrok-free.app/submissions/"
 
     def post(self, request):
         source_code = request.data.get("source_code", "")
